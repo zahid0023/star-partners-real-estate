@@ -1,0 +1,14 @@
+.profile-image {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
